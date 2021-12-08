@@ -11,7 +11,6 @@ body {
 
 nav {
 	background-color: #333;
-
 	overflow: hidden;
 }
 
@@ -20,7 +19,6 @@ nav li {
 	float: left;
 	font-weight: 900;
 	font-size: 1rem;
-
 	text-align: center;
 }
 li a {
@@ -38,7 +36,6 @@ nav li:hover {
 }
 .main-section2 {
 	height: 75vh;
-	width: 100%;
 	background: url("images/livingroom.jpg") no-repeat
 		center/cover;
 }
@@ -46,13 +43,6 @@ nav li:hover {
 .radio {
 	text-align: center;
 	padding: 1rem;
-}
-.circles {
-	width: 1rem;
-	height: 1.15rem;
-	background-color: #333;
-	border-radius: 50%;
-	float: left;
 }
 
 .row1 {
@@ -103,12 +93,9 @@ nav li:hover {
 .row2 {
 	clear: both;
 }
-.row2 li {
-	padding: 0 0.75rem;
-}
 
-.row2 li::marker {
-	content: "  >";
+.row2 li::before {
+	content: ">";
 }
 
 .row2-col1,
@@ -118,9 +105,6 @@ nav li:hover {
 	width: 33.333333%;
 }
 
-.row2 {
-	padding: 3.5rem 0;
-}
 .row2-col1 ul {
 	padding: 1rem 0;
 }
@@ -150,42 +134,127 @@ nav li:hover {
 .row3-col1,
 .row3-col2 {
 	float: left;
-	width: 47.75%;
+	width: 49%;
 	background-color: #646464;
 	color: #fff;
 	margin: 4rem 0 0;
 	font-size: 1.5rem;
 }
 .row3-col2 {
-	margin-left: 3.1rem;
+	margin-left: 2.1rem;
 }
 .num15,
 .dollar {
 	float: left;
 	background-color: #88d846;
-	padding: 7rem 3.5rem 6.5rem 3.5rem;
+	padding: 2rem;
 	font-size: 2.5rem;
 }
 
 .row3-col1txt,
 .row3-col2txt {
-	padding: 2rem 0;
+	padding: 0.5rem 0;
 }
 
 footer {
 	text-align: center;
-	padding: 3rem 5rem 2rem;
+	padding: 5rem 5rem 1.5rem;
 	color: rgb(255, 37, 37);
 	clear: both;
 }
 
-/* @media (min-width: 576px) {
+@media screen and (max-width: 1023px) {
+	body {
+		margin: 0;
+	}
+	nav li {
+		width: 20%;
+		text-align: center;
+		font-weight: bold;
+		font-size: 0.65rem;
+	}
+
+	.card1,
+	.card2,
+	.card3 {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	.card2,
+	.card3 {
+		margin: 2rem 0;
+	}
+	.card1,
+	.card2 {
+		padding-right: 0;
+	}
+	.row2-col1,
+	.row2-col2,
+	.row2-col3 {
+		float: none;
+		width: 100%;
+		padding: 1rem 0 0 0;
+		text-align: center;
+	}
+
+	.row2-col2,
+	.row2-col3 {
+		margin: 1rem 0;
+		padding: 2rem 0;
+	}
+
+	.btn {
+		margin: 2rem 0 0;
+		padding: 0.5rem 1.5rem;
+		background-color: rgb(100, 100, 100);
+		color: white;
+		float: none;
+		display: inline-block;
+	}
+
+	.row3-col1,
+	.row3-col2 {
+		float: none;
+		width: 100%;
+		background-color: #646464;
+		color: #fff;
+		margin: 2.5rem 0 0;
+	}
+	.num15,
+	.dollar {
+		float: none;
+		background-color: #88d846;
+		padding: 0.5rem;
+		font-size: 2.5rem;
+	}
 }
-@media (min-width: 768px) {
+
+@media screen and (max-width: 1841px) and (min-width: 1024px) {
+	.main-section1 {
+		height: 20vh;
+		background: url("images/space.png") no-repeat center;
+	}
+	.row3-col1,
+	.row3-col2 {
+		width: 47.75%;
+		background-color: #646464;
+		color: #fff;
+		margin: 2.5rem 0 0;
+		font-size: 1.3rem;
+	}
+	.num15,
+	.dollar {
+		background-color: #88d846;
+		padding: 3.5rem;
+		font-size: 2.5rem;
+	}
+	.row3-col2 {
+		margin-left: 2.4rem;
+	}
+	.row3-col1txt,
+	.row3-col2txt {
+		padding: 0.45rem 0;
+	}
 }
-@media (min-width: 992px) {
-}
-@media (min-width: 1200px) {
-}
-@media (min-width: 1400px) {
-} */
