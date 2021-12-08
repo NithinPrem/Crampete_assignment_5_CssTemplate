@@ -231,7 +231,7 @@ footer {
 	}
 }
 
-@media screen and (max-width: 1841px) and (min-width: 1024px) {
+@media screen and (max-width: 1106px) and (min-width: 1024px) {
 	.main-section1 {
 		height: 20vh;
 		background: url("images/space.png") no-repeat center;
@@ -256,5 +256,33 @@ footer {
 	.row3-col1txt,
 	.row3-col2txt {
 		padding: 0.45rem 0;
+	}
+}
+
+@media screen and (max-width: 1838px) and (min-width: 1107px) {
+	.main-section1 {
+		height: 20vh;
+		background: url("images/space.png") no-repeat center;
+	}
+	.row3-col1,
+	.row3-col2 {
+		width: 47.75%;
+		background-color: #646464;
+		color: #fff;
+		margin: 2.5rem 0 0;
+		font-size: 1.2rem;
+	}
+	.num15,
+	.dollar {
+		background-color: #88d846;
+		padding: 3.5rem;
+		font-size: 2.5rem;
+	}
+	.row3-col2 {
+		margin-left: 2.4rem;
+	}
+	.row3-col1txt,
+	.row3-col2txt {
+		padding: 2rem 0;
 	}
 }
