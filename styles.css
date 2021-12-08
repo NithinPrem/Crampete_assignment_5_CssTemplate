@@ -236,12 +236,18 @@ footer {
 		height: 20vh;
 		background: url("images/space.png") no-repeat center;
 	}
+	.row2-col1,
+	.row2-col2,
+	.row2-col3 {
+		margin: 2.5rem 0;
+		padding: 2rem 0;
+	}
 	.row3-col1,
 	.row3-col2 {
 		width: 47.75%;
 		background-color: #646464;
 		color: #fff;
-		margin: 2.5rem 0 0;
+		margin: 1rem 0 0;
 		font-size: 1.3rem;
 	}
 	.num15,
@@ -259,10 +265,16 @@ footer {
 	}
 }
 
-@media screen and (max-width: 1838px) and (min-width: 1107px) {
+@media screen and (min-width: 1107px) {
 	.main-section1 {
 		height: 20vh;
 		background: url("images/space.png") no-repeat center;
+	}
+	.row2-col1,
+	.row2-col2,
+	.row2-col3 {
+		margin: 2.5rem 0;
+		padding: 2rem 0;
 	}
 	.row3-col1,
 	.row3-col2 {
